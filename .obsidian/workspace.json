@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d0400cddcbc6674c",
@@ -148,6 +149,17 @@
   },
   "active": "c568708d092a703f",
   "lastOpenFiles": [
+    "codes/bin/com/techykumar29/s/CollegeNotifyStudent.class",
+    "codes/bin/com/techykumar29/s/CollegeAssignStream.class",
+    "codes/bin/com/techykumar29/s/CollegeAdmission.class",
+    "codes/bin/com/techykumar29/s/Student.class",
+    "codes/bin/com/techykumar29/s/SingleResponsibility.class",
+    "codes/src/com/techykumar29/s/SingleResponsibility.java",
+    "codes/bin/com/techykumar29/s",
+    "codes/src/com/techykumar29/s",
+    "codes/bin/com/techykumar29/SingleResponsibility.class",
+    "codes/src/com/techykumar29/SingleResponsibility.java",
+    "codes/bin/com/techykumar29/NoSingleResponsibility.class",
     "SOLID_Principles/S - Single Responsibility.md"
   ]
 }
