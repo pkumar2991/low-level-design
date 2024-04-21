@@ -1,0 +1,84 @@
+### Definition
+A class should only be extended in case of adding new capability rather than modifying the existing class.
+
+### Problem Statement
+Let's say in this digital world, with in a decade there would be a new mechanism of Printing a document. Design a software solution to accommodate the implementation of new mechanism of printing a document,  with low maintainability cost and high readability.
+
+### Naive Approach
+
+Printer class having all types of printer available in the market.
+
+```java
+class Printer{
+	
+	void inkjetPrinter() {
+		System.out.println("Printing with InkJet Printer.");
+	}
+	
+	void dotMatrixPrinter() {
+		System.out.println("Printing with Dot Matrix Printer.");
+	}
+	
+	void laserPrinter() {
+		System.out.println("Printing with Laser Printer.");
+	}
+}
+```
+
+**What's the problem in this code ?**
+If any new type of printer is launched in the market, then this class need to be modified which incurs testing effort to test all the features written in this class.
+
+### Better Approach
+Open for extension and close for modification design principle would help us to solve the aforementioned problem.
+
+Create a Printer interface.
+```java
+interface Printer{
+	void print();
+}
+```
+
+Each type of Printer should implement the Printer interface.
+```java
+class InkjetPrinter implements Printer{
+
+	@Override
+	public void print() {
+		System.out.println("Printing with InkJet Printer.");
+	}
+}
+
+class DotMatrixPrinter implements Printer{
+
+	@Override
+	public void print() {
+		System.out.println("Printing with Dot Matrix Printer.");
+	}
+}
+
+class LaserPrinter implements Printer{
+
+	@Override
+	public void print() {
+		System.out.println("Printing with Laser Printer.");
+	}
+	
+}
+```
+
+Now, lets suppose a new type of printer , say BlinkPrinter, is launched in the market. It would be very easy to add this new printer in the system without modifying the existing code. Moreover, there would be no additional effort for testing. 
+
+Create a class BlinkPrinter, implements the Printer interface.
+```java
+class BlinkPrinter implements Printer{
+	@Override
+	public void print(){
+		System.out.println("What you think would be printed on a paper when you blink you eyes.")
+	}
+}
+```
+
+Only this class need to be tested prior releasing to the production.
+
+### Summary
+Any new capability should be added in the system by extending the existing class rather modifying them. It would help in cutting down the testing effort and improves the code readability along with low maintenance cost.

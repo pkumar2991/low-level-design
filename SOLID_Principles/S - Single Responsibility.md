@@ -2,7 +2,7 @@
 A class should have only one reason to change.
 
 ### Problem Statement
-Let's say we have a college where students need to be enrolled. College assign stream/branch looking at the ranking of the student in the entrance exam. Also, sends notification about progress of the admission process.
+Let's say we have a college where students need to be enrolled. College assign stream/branch looking at the ranking of the student in the entrance exam. Also, sends notification about progress of the admission process. Design a software solution to provide the asked features with low maintainability cost and high readability.
 
 ### Naive Approach
 
@@ -120,6 +120,6 @@ class CollegeNotifyStudent{
 }
 ```
 
-### Conclusion
+### Summary
 Single Responsibility Design Principle segregates the responsibility to different classes and avoid overhead of testing the unchanged functionalities. Aforementioned possibility of change in strategy or process of enrolment will not impact all the classes. A specific class need to be modified for a specific reason.
 

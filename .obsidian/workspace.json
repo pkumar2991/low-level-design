@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b92bdfe72e825b49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID_Principles/Open for extension, closed for modification.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d0400cddcbc6674c",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOLID_Principles/S - Single Responsibility.md",
+                "file": "SOLID_Principles/Open for extension, closed for modification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOLID_Principles/S - Single Responsibility.md",
+                "file": "SOLID_Principles/Open for extension, closed for modification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOLID_Principles/S - Single Responsibility.md"
+                "file": "SOLID_Principles/Open for extension, closed for modification.md"
               }
             }
           }
@@ -147,19 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c568708d092a703f",
+  "active": "b92bdfe72e825b49",
   "lastOpenFiles": [
-    "codes/bin/com/techykumar29/s/CollegeNotifyStudent.class",
-    "codes/bin/com/techykumar29/s/CollegeAssignStream.class",
-    "codes/bin/com/techykumar29/s/CollegeAdmission.class",
-    "codes/bin/com/techykumar29/s/Student.class",
-    "codes/bin/com/techykumar29/s/SingleResponsibility.class",
-    "codes/src/com/techykumar29/s/SingleResponsibility.java",
-    "codes/bin/com/techykumar29/s",
-    "codes/src/com/techykumar29/s",
-    "codes/bin/com/techykumar29/SingleResponsibility.class",
-    "codes/src/com/techykumar29/SingleResponsibility.java",
-    "codes/bin/com/techykumar29/NoSingleResponsibility.class",
-    "SOLID_Principles/S - Single Responsibility.md"
+    "SOLID_Principles/S - Single Responsibility.md",
+    "SOLID_Principles/Open for extension, closed for modification.md",
+    "codes/bin/com/techykumar29/o/LaserPrinter.class",
+    "codes/bin/com/techykumar29/o/DotMatrixPrinter.class",
+    "codes/bin/com/techykumar29/o/Printer.class",
+    "codes/bin/com/techykumar29/o/InkjetPrinter.class",
+    "codes/bin/com/techykumar29/o/Printers.class",
+    "codes/bin/com/techykumar29/o/Open4ExtensionClose4Modification.class",
+    "codes/src/com/techykumar29/o/Open4ExtensionClose4Modification.java",
+    "codes/bin/com/techykumar29/o",
+    "codes/src/com/techykumar29/o",
+    "codes/bin/com/techykumar29/Printer.class"
   ]
 }
