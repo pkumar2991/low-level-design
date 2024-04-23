@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
+                "file": "SOLID_Principles/4. Interface Segregation Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
+                "file": "SOLID_Principles/4. Interface Segregation Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
+                "file": "SOLID_Principles/4. Interface Segregation Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOLID_Principles/3. L - Liskov's Substitution Principle.md"
+                "file": "SOLID_Principles/4. Interface Segregation Principle.md"
               }
             }
           }
@@ -173,18 +173,20 @@
   },
   "active": "0b554c47b9130c09",
   "lastOpenFiles": [
+    "codes/bin/com/techykumar29/i/AppDeveloper.class",
+    "codes/bin/com/techykumar29/i/AppTester.class",
+    "codes/bin/com/techykumar29/i/TeamManager.class",
+    "codes/bin/com/techykumar29/i/Employee.class",
+    "codes/bin/com/techykumar29/i/Developer.class",
+    "codes/bin/com/techykumar29/i/Manager.class",
+    "codes/bin/com/techykumar29/i/InterfaceSegregationPrinciple.class",
+    "codes/src/com/techykumar29/i/InterfaceSegregationPrinciple.java",
+    "codes/bin/com/techykumar29/i",
+    "codes/src/com/techykumar29/i",
     "SOLID_Principles/2. O - Open for extension, closed for modification.md",
-    "SOLID_Principles/1. S - Single Responsibility.md",
+    "SOLID_Principles/4. Interface Segregation Principle.md",
     "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
-    "codes/bin/com/techykumar29/l/FlyableAnimal.class",
-    "codes/bin/com/techykumar29/l/Pigeon.class",
-    "codes/bin/com/techykumar29/l/Animal.class",
-    "codes/bin/com/techykumar29/l/Bear.class",
-    "codes/bin/com/techykumar29/l/Liskov.class",
-    "codes/src/com/techykumar29/l/Liskov.java",
-    "codes/bin/com/techykumar29/l",
-    "codes/src/com/techykumar29/l",
-    "codes/bin/com/techykumar29/Pigeon.class",
-    "codes/bin/com/techykumar29/Pegion.class"
+    "codes/bin/com/techykumar29/Developer.class",
+    "SOLID_Principles/1. S - Single Responsibility.md"
   ]
 }
