@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID_Principles/4. Interface Segregation Principle.md",
+                "file": "SOLID_Principles/1. S - Single Responsibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOLID_Principles/4. Interface Segregation Principle.md",
+                "file": "SOLID_Principles/1. S - Single Responsibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOLID_Principles/4. Interface Segregation Principle.md",
+                "file": "SOLID_Principles/1. S - Single Responsibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOLID_Principles/4. Interface Segregation Principle.md"
+                "file": "SOLID_Principles/1. S - Single Responsibility.md"
               }
             }
           }
@@ -173,6 +173,9 @@
   },
   "active": "0b554c47b9130c09",
   "lastOpenFiles": [
+    "SOLID_Principles/2. O - Open for extension, closed for modification.md",
+    "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
+    "SOLID_Principles/4. Interface Segregation Principle.md",
     "codes/bin/com/techykumar29/i/AppDeveloper.class",
     "codes/bin/com/techykumar29/i/AppTester.class",
     "codes/bin/com/techykumar29/i/TeamManager.class",
@@ -183,10 +186,6 @@
     "codes/src/com/techykumar29/i/InterfaceSegregationPrinciple.java",
     "codes/bin/com/techykumar29/i",
     "codes/src/com/techykumar29/i",
-    "SOLID_Principles/2. O - Open for extension, closed for modification.md",
-    "SOLID_Principles/4. Interface Segregation Principle.md",
-    "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
-    "codes/bin/com/techykumar29/Developer.class",
     "SOLID_Principles/1. S - Single Responsibility.md"
   ]
 }
