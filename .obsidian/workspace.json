@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID_Principles/S - Single Responsibility.md",
+                "file": "SOLID_Principles/1. S - Single Responsibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID_Principles/Open for extension, closed for modification.md",
+                "file": "SOLID_Principles/2. O - Open for extension, closed for modification.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b554c47b9130c09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOLID_Principles/Open for extension, closed for modification.md",
+                "file": "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOLID_Principles/Open for extension, closed for modification.md",
+                "file": "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOLID_Principles/Open for extension, closed for modification.md"
+                "file": "SOLID_Principles/3. L - Liskov's Substitution Principle.md"
               }
             }
           }
@@ -159,19 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b92bdfe72e825b49",
+  "active": "0b554c47b9130c09",
   "lastOpenFiles": [
-    "SOLID_Principles/S - Single Responsibility.md",
-    "SOLID_Principles/Open for extension, closed for modification.md",
-    "codes/bin/com/techykumar29/o/LaserPrinter.class",
-    "codes/bin/com/techykumar29/o/DotMatrixPrinter.class",
-    "codes/bin/com/techykumar29/o/Printer.class",
-    "codes/bin/com/techykumar29/o/InkjetPrinter.class",
-    "codes/bin/com/techykumar29/o/Printers.class",
-    "codes/bin/com/techykumar29/o/Open4ExtensionClose4Modification.class",
-    "codes/src/com/techykumar29/o/Open4ExtensionClose4Modification.java",
-    "codes/bin/com/techykumar29/o",
-    "codes/src/com/techykumar29/o",
-    "codes/bin/com/techykumar29/Printer.class"
+    "SOLID_Principles/2. O - Open for extension, closed for modification.md",
+    "SOLID_Principles/1. S - Single Responsibility.md",
+    "SOLID_Principles/3. L - Liskov's Substitution Principle.md",
+    "codes/bin/com/techykumar29/l/FlyableAnimal.class",
+    "codes/bin/com/techykumar29/l/Pigeon.class",
+    "codes/bin/com/techykumar29/l/Animal.class",
+    "codes/bin/com/techykumar29/l/Bear.class",
+    "codes/bin/com/techykumar29/l/Liskov.class",
+    "codes/src/com/techykumar29/l/Liskov.java",
+    "codes/bin/com/techykumar29/l",
+    "codes/src/com/techykumar29/l",
+    "codes/bin/com/techykumar29/Pigeon.class",
+    "codes/bin/com/techykumar29/Pegion.class"
   ]
 }
